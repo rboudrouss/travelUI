@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel UI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="sections">
+        <button class="nav-toggle section" aria-label="toggle navigation">
+          <p class="hamburger"></p>
+        </button>
+        <a href="#" class="section">
+          <p>Home</p>
+        </a>
+        <a href="#" class="section">
+          <p>Explore</p>
+        </a>
+        <a href="#" class="section">
+          <p>Maps</p>
+        </a>
+        <a href="#" class="section">
+          <p>My Bucket List</p>
+        </a>
+      </div>
+      <div class="right-section">
+        <div class="search-section">
+          <button class="search-toggle" aria-label="toggle navigation">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <div class="vl"></div>
+        <div class="user-section">
+          <div class="user-options">
+            <p id="welcome">Welcome, <b class="username">Alex</b></p>
+          </div>
+          <div class="user-not">
+            <a href="#">
+              <img class="user-icon" src="src/img/ico.png" alt="user icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="diapo-section">
+      <div class="diapo">
+        <div class="elements">
+          <div class="element active">
+            <img src="./src/img/Bali.png" alt="" />
+            <a href="#" class="caption">
+              <p>Explore ></p>
+            </a>
+          </div>
+          <div class="element">
+            <img src="./src/img/Bali.png" alt="" />
+            <button class="caption">
+              <p>Explore ></p>
+            </button>
+          </div>
+          <div class="element">
+            <img src="./src/img/Bali.png" alt="" />
+            <button class="caption">
+              <p>Explore ></p>
+            </button>
+          </div>
+        </div>
+        <!-- <i id="nav-left" class="las la-chevron-left"></i>
+        <i id="navr-right" class="las la-chevron-right"></i> -->
+      </div>
+      <!-- <img src="src/Bali.png" alt="temp" /> -->
+    </section>
+    <section class="popular">
+      <h1 class="title_popular">Popular Destinations</h1>
+      <div class="card"></div>
+    </section>
+  </body>
+</html>
